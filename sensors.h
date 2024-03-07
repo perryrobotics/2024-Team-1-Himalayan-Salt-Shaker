@@ -1,0 +1,11 @@
+void forward_to_black(int speed, int port);
+void backward_to_black(int speed, int port);
+void right_to_black(int speed, int port);
+void left_to_black(int speed, int port);
+void line_follow_to_black(int speed, int port, int watch_port);
+void line_follow_2_black(int speed, int port, int watch_port);
+void line_follow_ticks(int speed, int port, int ticks);
+void line_follow_both_ticks(int speed, int left_port, int right_port, int ticks);
+void line_follow_backward_both_ticks(int speed, int left_port, int right_port, int ticks);
+void forward_2_black(int speed, int left_port, int right_port);
+void align_to_black(int speed);

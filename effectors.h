@@ -1,0 +1,12 @@
+void FUNNEL_CLOSED();
+void FUNNEL_OPEN();
+void ARM_DOWN();
+void ARM_START();
+void ARM_TUBE_UP();
+void ARM_TUBE_DOWN();
+void FORK_DOWN();
+void FORK_UP();
+void SHAKE_ARM(int port, int reps);
+void ARM_SLOWLY(int port, int end_pos);
+void FUNNEL_SLOWLY(int port, int end_pos);
+void FORK_SLOWLY(int port, int end_pos);
